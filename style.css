@@ -1,0 +1,21 @@
+/* ===== Custom Colors & Theme ===== */
+:root {
+  --primary-500: #3b82f6;
+  --primary-600: #2563eb;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* ===== Scrollbar Styling ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3a3a3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737373;
+}
